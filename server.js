@@ -1,5 +1,5 @@
 var compression = require('compression')
-var CacheControl = require("express-cache-controller");
+var cacheControl = require("express-cache-controller");
 const express = require('express');
 const path = require('path');
 const https = require('https');
@@ -14,7 +14,7 @@ app.use(express.static(__dirname + '/build'));
 // handle every other route with index.html, which will contain
 // a script tag to your application's JavaScript file(s).
 
-app.use(cacheControl({ maxAge: 60 }));
+app.use(cacheControl({ maxAge: 1080 }));
 app.get('*', function (request, response) {
 response.sendFile(path.resolve(__dirname, 'build/index.html'));
 });
