@@ -19,9 +19,9 @@ app.get('*', function (request, response) {
 response.sendFile(path.resolve(__dirname, 'build/index.html'));
 });
 
-/* https.createServer({
+https.createServer({
     key: fs.readFileSync('/etc/letsencrypt/live/compropertee.com/privkey.pem'),
     cert: fs.readFileSync('/etc/letsencrypt/live/compropertee.com/fullchain.pem')
-}, app) */
-app.listen(port);
+}, app)
+.listen(port);
 console.log("Compropertee Dashboard Started on port " + port);
