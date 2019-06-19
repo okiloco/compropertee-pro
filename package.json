@@ -1,5 +1,5 @@
 {
-  "name": "compropertee-dashboard-pro",
+  "name": "compropertee-pro",
   "version": "1.0.0",
   "description": "build",
   "main": "server.js",
@@ -18,12 +18,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Aeyzaz/compropertee-dashboard-pro.git"
+    "url": "git+https://github.com/Aeyzaz/compropertee-pro.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Aeyzaz/compropertee-dashboard-pro/issues"
+    "url": "https://github.com/Aeyzaz/compropertee-pro/issues"
   },
-  "homepage": "https://github.com/Aeyzaz/compropertee-dashboard-pro#readme"
+  "homepage": "https://github.com/Aeyzaz/compropertee-pro#readme"
 }
